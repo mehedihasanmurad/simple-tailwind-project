@@ -8,16 +8,30 @@
     <title>Simple Tailwind Project</title>
     <!-- css link here -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- font awesome kits -->
+    <script src="https://kit.fontawesome.com/6784d1998e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <div>
-            <h1>Hello Bangladesh</h1>
-            <h1>Hello Bangladesh</h1>
-            <h1>Hello Bangladesh</h1>
-        </div>
-        <div>
 
+    <!-- Navbar Start -->
+    <nav class="sm:shadow-md">
+        <div class="mx-16 sm:flex justify-around items-center sm:mx-0">
+            <div>
+                <img src="assets/img/header/logo.svg" alt="">
+            </div>
+            <div class="sm:flex items-center gap-5 my-5">
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>123 Arling, Miola, NY</p>
+                    </div>
+                
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+880) 1319-118362</p>
+                    </div>
+                
+                    <button class="border rounded-full bg-white border-blue-800 uppercase px-12 py-2 sm:px-8">Book Now</button>
+            </div>
         </div>
     </nav>
 </body>
