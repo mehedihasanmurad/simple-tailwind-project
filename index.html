@@ -15,8 +15,9 @@
 
     <!-- Navbar Start -->
     <nav class="">
-        <div class="mx-16 py-9 sm:flex justify-around items-center sm:mx-0 sm:shadow-sm">
-            <div>
+        <div class="container mx-auto border">
+            <div class="mx-16 py-9 sm:flex justify-around items-center sm:mx-0 sm:shadow-sm">
+            <div class="cursor-pointer">
                 <img src="assets/img/header/logo.svg" alt="">
             </div>
             <div class="sm:flex items-center gap-5 my-5">
@@ -33,10 +34,9 @@
                     <button class="border rounded-full bg-white border-blue-600 uppercase px-12 py-2 hover:bg-slate-100 transition sm:px-8">Book Now</button>
             </div>
         </div> 
-
+        <div class="-mt-10 mx-10"> 
+            <div class="hidden py-4 sm:flex justify-around bg-slate-50 sm:shadow-lg rounded-xl">
        
-        <div class="hidden py-4 sm:flex justify-around mx-20 -mt-8 bg-slate-50 sm:shadow-lg rounded-xl">
-            <div>
                 <ul class="sm:flex gap-4">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#doctors">Doctors</a></li>
@@ -45,17 +45,41 @@
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
+           
 
-            <div>
-                <i class="fa-solid fa-magnifying-glass text-blue-600 mr-3"></i>
-                <input class="outline-none bg-white" type="text" placeholder="Search">
+               <div>
+                    <i class="fa-solid fa-magnifying-glass text-blue-600 mr-3"></i>
+                    <input class="outline-none bg-white" type="text" placeholder="Search">
+              </div>
             </div>
         </div>
+        </div>
+
+
+
         
     </nav>
 
-    
+    <!-- Header section start -->
+    <header class="bg-[#E8F0F1]">
+
+
+        <div class="flex justify-center items-center mx-16 sm:mx-40">
+            <div class="sm:w-full">
+                <div class="bg-white w-[250px] rounded-full text-gray-500 px-8 py-3 mt-5">
+                    <i class="fa-solid fa-heart-crack mr-2 text-blue-800"></i>
+                    <button class="uppercase">Live Your Life</button>
+                </div>
+                <h1 class="text-4xl font-semibold my-3">We care about <br> your health</h1>
+                <p class="text-justify mb-5 w-96">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate mollitia reprehenderit exercitationem dolores! Pariatur aliquam soluta numquam consequuntur placeat quas.</p>
+                <button class="bg-blue-800 px-8 mb-8 py-3 rounded-full uppercase text-white">Contact Us</button>
+            </div>
+
+            <div class="hidden sm:flex">
+                <img class="" src="assets/img/hero/img.png" alt="">
+            </div>
+        </div>
+    </header>
 
     
 </body>
